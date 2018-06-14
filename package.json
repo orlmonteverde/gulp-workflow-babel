@@ -1,0 +1,35 @@
+{
+  "name": "gulp-workflow-babel",
+  "version": "1.0.0",
+  "description": "Boilerplate to Gulp workflow",
+  "main": "gulpfile.babel.js",
+  "repository": "https://github.com/orlmonteverde/gulp-workflow-babel.git",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orlando Monteverde",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-watch": "^4.3.11",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
